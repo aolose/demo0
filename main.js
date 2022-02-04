@@ -148,7 +148,7 @@ init().then(() => {
         }
     });
     $(root, imgArea)
-    window.onreset = function () {
+    window.onresize = function () {
         processImg()
     }
 })
